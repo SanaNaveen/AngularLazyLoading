@@ -1,0 +1,43 @@
+<div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <a routerLink="/"  class="navbar-brand">Lazy Loading</a>
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navBarMenu" aria-expanded="false" aria-label="Lazy Loading Toggle">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navBarMenu">
+    
+            <ul class="navbar-nav mr-auto">
+    
+                <li class="nav-item">
+                    <a routerLink="/" class="nav-link" routerLinkActive="text-primary">Componet 1</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a routerLink="/component2" class="nav-link" routerLinkActive="text-primary">Componet 2</a>
+                </li>
+                
+              
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Component 3
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a routerLink="/componet3/page1" class="dropdown-item"  routerLinkActive="text-primary">Page 1</a>
+                      <a class="dropdown-item" routerLink="/componet3/page2" routerLinkActive="text-primary">Page 2</a>
+                      <a class="dropdown-item" routerLink="/componet3/page3"  routerLinkActive="text-primary">Page 3</a>
+                    </div>
+                  </li>
+            </ul>
+    
+        </div>
+    
+    
+    </nav>
+
+
+</div>
